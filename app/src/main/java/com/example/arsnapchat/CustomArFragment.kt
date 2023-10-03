@@ -16,6 +16,7 @@ class CustomArFragment : ArFragment() {
         config.augmentedFaceMode = Config.AugmentedFaceMode.MESH3D
         arSceneView.setupSession(session)
         return config
+
     }
 
     override fun getSessionFeatures(): Set<Session.Feature> {
